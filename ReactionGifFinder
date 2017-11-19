@@ -1,0 +1,4 @@
+javascript:var reactionToSearchFor = prompt('Find a reaction for:', '');
+reactionToSearchFor = reactionToSearchFor.replace(' ', '+');
+var gifYesNo = confirm('Gifs only?')?'+type:gif':''; 
+window.open('https://www.google.com/search?q=site:imgur.com+' + reactionToSearchFor + gifYesNo + '&tbm=isch');
